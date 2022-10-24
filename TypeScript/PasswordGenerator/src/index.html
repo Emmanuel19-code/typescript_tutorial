@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Password Generator</title>
+</head>
+<body>
+     <div class="flex justify-center items-center bg-blue-400 h-screen">
+          <div class="bg-white shadow p-2  w-80 h-72 rounded">
+             <h4 class="text-blue-600 text-center font-bold cursor-pointer mb-1">Password Generator</h4>
+             <div class="w-full mb-2 p-1 outline-none border  border-slate-500 passwordValue">
+                <input type="text" placeholder="please type the password here"  class="w-full border-0 passwordinput outline-none"/>
+             </div>
+              <div class="w-full border border-slate-500 rounded items-center flex p-1 mb-2">
+                <span class="flex-1 result"></span>
+                <span><i class='bx bx-clipboard bx-sm text-gray-400'></i></span>
+              </div>
+             <button class="bg-blue-600 text-white w-full p-1 cursor-pointer rounded justify-center btn">Generate Password</button>
+          </div>
+     </div>
+    <script src="../dist/index.js"></script>
+</body>
+</html>
